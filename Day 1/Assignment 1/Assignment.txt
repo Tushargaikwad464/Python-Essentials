@@ -1,0 +1,17 @@
+1. What is python? what are the ways to install python in your PC?
+
+developed by Guido Van Rossum in 1991 and become famous is 2006
+developer can learn quickly
+less code req
+
+*ways to install
+1.use of anaconda
+2. use of any ide
+
+
+2. What are Code Enviroment?types?
+programming environment is setting up your local machine to do practice/development. Example, if you planned to learn python, you must have some local setup to practice python. Those setup is called programming environment. Once it’s done 
+we can do our work without any interruption.
+Local Environment.
+Virtual Environment.
+Cloud Environment.
