@@ -1,0 +1,4 @@
+1. find all occurrence of substring in the given string
+
+str="we the people, for the people by the people"
+[i for i in range(len(str))if str.startswith('people',i)]
