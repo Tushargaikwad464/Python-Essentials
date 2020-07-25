@@ -1,0 +1,50 @@
+######-------Assignment 1------#####
+
+
+ass1=[0,1,2,10,4,1,0,56,2,0,1,3,0,56,0,4]
+sort in increasing order but alll zero should be right hand side
+
+ass2=[0,1,2,10,4,1,0,56,2,0,1,3,0,56,0,4]
+c=[]
+d=[]
+for i in ass2:
+    if i !=0: 
+        c.append(i)
+    elif i ==0:
+        d.append(i)
+
+c.sort(reverse=False)
+ass1=c+d
+ass1
+
+[1, 1, 1, 2, 2, 3, 4, 4, 10, 56, 56, 0, 0, 0, 0, 0]
+
+######-------Assignment 2------#####
+
+
+list1=[10,20,40,60,70,80] sort list
+list2=[5,15,25,35,45,60] sort list
+
+merge these two sorted list but use on;y one loop either for or while
+only one time and produced one list
+
+list=[10,20,40,60,70,80]
+
+list=[5,15,25,35,45,60]
+
+print("the og list is",str(list))
+print("the og list is",str(list1))
+sizeList=len(list)
+sizeList1=len(list1)
+res=[]
+i,j=0,0
+while i<sizeList and j<sizeList1:
+    if list[i]<list1[j]:
+        res.append(list[i])
+        i+=1
+    else:
+        res.append(list[j])
+        j+=1
+        
+print("combained sorted list is"+str(res))
+
